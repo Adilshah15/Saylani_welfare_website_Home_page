@@ -1,0 +1,64 @@
+@font-face {
+    font-family: my-popine;
+    src: url(./Popines/Poppins-BlackItalic.ttf);
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+.navbar{
+    position: fixed;
+    position: static;
+    background-color: #ffffff;
+    box-shadow: 0.1px .1px 8px .1px;
+}
+.navbar li {
+    margin-left: 10px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.donate_btn{
+    background-color: greenyellow;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    position: relative;
+    width: 100%;
+    margin-left: 1rem;
+    margin-top: 7rem;
+    padding: 2px;
+    
+    position: relative;
+    width: 600px;
+    h1{
+        font-size: 32px;
+        width: 400px;
+        font-family: my-popine;
+        p{
+            color: rgba(172, 255, 47, 0.788);
+            display: inline;
+        }
+    }
+    h5{
+        margin-top: 2rem;
+        width: 500px;
+    }
+    p{
+        font-size: 17px
+    }
+    #btn{
+        padding: 1.4rem;
+        width: 10rem;
+        border: solid .1px;
+    }
+}
+
+.images{
+    position: relative;
+    margin-top: 2rem;
+    
+}
+
