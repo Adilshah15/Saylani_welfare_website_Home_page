@@ -31,7 +31,7 @@ body{
     position: relative;
     width: 100%;
     margin-left: 1rem;
-    margin-top: 7rem;
+    margin-top: 15rem;
     padding: 2px;
     
     position: relative;
@@ -62,9 +62,96 @@ body{
 .images{
     position: relative;
     margin-top: 2rem;
-    margin-top: 7rem
+    margin-top: 7rem;
+    cursor: pointer;
     
 }
+.second-nav{
+    display: flex;
+    justify-content: center;
+
+}
 .custom-nav{
-    background-color: black;
+    margin-top: 8rem; 
+    width: 90%;
+    box-shadow: none;
+    z-index:-4;
+    
+    
+}
+.inside-nav{
+    padding: 30px;
+    background-color: #f0fcdb;
+    display: flex;
+    box-shadow: none;
+    cursor: pointer;
+   
+}
+
+.saylani-img {
+    display: flex;
+    
+    justify-content: center;
+    margin-top: 3rem;
+
+    #img{
+        object-fit: contain;
+        height: 80vh;
+        box-shadow:3px 3px 3px 3px  rgba(167, 163, 163, 0.582);
+    }
+}
+/* 3rd part to make "what we doning" */
+.para{
+    /* font-family: my-popine; */
+    display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* padding: 6rem; */
+}
+.boxes .box {
+    width: 200px;
+    background-color:#f0fcdb ;
+    padding: 1rem;
+    border-radius: 18px;
+    margin: 2rem;
+    h5 {
+        margin-top: 2rem;
+    }
+}
+
+/* purpose of images means deves*/
+.purpose-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+    .purpose-boxes img {
+         width: 25rem; 
+         border-radius: 14px;
+         /* position: relative; */
+         opacity: 0.8;
+    }
+  .purpose-boxes h5{
+        position:absolute;
+        color: #ffffff;
+        margin-top: -6.5rem;
+        font-weight: bolder;
+        margin-left: 1rem;
+    
+    }
+    .purpose-boxes .purpose{
+        margin-left: 12px;
+    }
+
+.btn-style{
+    position: relative;
+    width: 90%;
+    margin: 4px;
+    margin-top: -4.8rem;
+    
+    /* margin-left: 1.5rem; */
 }
