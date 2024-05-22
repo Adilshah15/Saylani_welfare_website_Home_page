@@ -6,6 +6,9 @@
 body{
     background-color: hsl(0, 0%, 100%);
 }
+#circle-icon {
+    border-radius: 50%;
+}
 .navbar{
     position: fixed;
     position: static;
@@ -59,6 +62,9 @@ body{
 .images{
     position: relative;
     margin-top: 2rem;
+    margin-top: 7rem
     
 }
-
+.custom-nav{
+    background-color: black;
+}
